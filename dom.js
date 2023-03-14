@@ -18,3 +18,17 @@ let texto2 = "Tudo ok com a manipulação da dom?"
 let lista = document.getElementById("divLista")
 lista.innerHTML = `<p class="editarParagrafo">${texto1}</p>
                    <p class="editarParagrafo">${texto2}</p>`
+
+
+
+
+//Eventos:
+
+
+
+    function newUser(){
+        document.getElementById("newUser").value;
+        let novoUser = prompt("Insira o nome do novo usuário")
+
+        alert("Inserido o novo usuário: " + novoUser)
+    }
