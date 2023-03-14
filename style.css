@@ -6,3 +6,10 @@
 .botoes{
     display: flex;
 }
+
+
+.imgs{
+    width: 20rem;
+    align-items: left;
+}
+
